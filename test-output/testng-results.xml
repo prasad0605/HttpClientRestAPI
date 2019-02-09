@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1042" started-at="2019-02-07T13:08:08Z" finished-at="2019-02-07T13:08:09Z">
+  <suite name="Default suite" duration-ms="1202" started-at="2019-02-09T12:29:54Z" finished-at="2019-02-09T12:29:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1042" started-at="2019-02-07T13:08:08Z" finished-at="2019-02-07T13:08:09Z">
+    <test name="Default test" duration-ms="1202" started-at="2019-02-09T12:29:54Z" finished-at="2019-02-09T12:29:56Z">
       <class name="com.qa.Tests.RestAPI">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.Tests.RestAPI@2a5ca609]" name="setup" is-config="true" duration-ms="0" started-at="2019-02-07T13:08:08Z" finished-at="2019-02-07T13:08:08Z">
+        <test-method status="PASS" signature="POSTAPIWithHeaders()[pri:2, instance:com.qa.Tests.RestAPI@482f8f11]" name="POSTAPIWithHeaders" duration-ms="1187" started-at="2019-02-09T12:29:54Z" finished-at="2019-02-09T12:29:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- POSTAPIWithHeaders -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.Tests.RestAPI@482f8f11]" name="setup" is-config="true" duration-ms="0" started-at="2019-02-09T12:29:54Z" finished-at="2019-02-09T12:29:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="GetAPI()[pri:0, instance:com.qa.Tests.RestAPI@2a5ca609]" name="GetAPI" duration-ms="1027" started-at="2019-02-07T13:08:08Z" finished-at="2019-02-07T13:08:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- GetAPI -->
       </class> <!-- com.qa.Tests.RestAPI -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

@@ -5,8 +5,8 @@
     <classes>
       <class name="com.qa.Tests.RestAPI">
         <methods>
-          <include name="GetAPI"/>
           <include name="setup"/>
+          <include name="POSTAPIWithHeaders"/>
         </methods>
       </class> <!-- com.qa.Tests.RestAPI -->
     </classes>
